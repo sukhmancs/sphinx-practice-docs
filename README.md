@@ -16,5 +16,5 @@ This documentation project uses the PyData Sphinx Theme, which provides a beauti
 
 To get started with this project, follow these steps:
 
-1. Follow the instructions provided in the [Sphinx documentation](https://pydata-sphinx-theme.readthedocs.io/en/stable/user_guide/install.html](https://www.codingwiththomas.com/blog/my-sphinx-best-practice-for-a-multiversion-documentation-in-different-languages)https://www.codingwiththomas.com/blog/my-sphinx-best-practice-for-a-multiversion-documentation-in-different-languages) by Thomas.
+1. Follow the instructions provided in the [Sphinx documentation](https://www.codingwiththomas.com/blog/my-sphinx-best-practice-for-a-multiversion-documentation-in-different-languages) by Thomas.
 

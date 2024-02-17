@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="foo1_8hpp" kind="file" language="C++">
+    <compoundname>foo1.hpp</compoundname>
+    <innerclass refid="classfoo1" prot="public">foo1</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="classfoo1" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classfoo1" kindref="compound">foo1</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="12" refid="classfoo1_1ac14d48dbba52b3951e76e0911a43fc81" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classfoo1_1ac14d48dbba52b3951e76e0911a43fc81" kindref="member">do_some_work</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>bar);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>std::size_t<sp/>m_member;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="/home/sukhman/myStuff/sphinx_basics_3/src/foo1.hpp"/>
+  </compounddef>
+</doxygen>

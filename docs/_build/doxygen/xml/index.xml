@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.7" xml:lang="en-US">
+  <compound refid="classfoo" kind="class"><name>foo</name>
+    <member refid="classfoo_1ac45bfea0fdd0a7374612754d953e22ac" kind="variable"><name>m_member</name></member>
+    <member refid="classfoo_1abe684e752849129e1392b72f5031f96d" kind="function"><name>do_some_work</name></member>
+  </compound>
+  <compound refid="classfoo1" kind="class"><name>foo1</name>
+    <member refid="classfoo1_1a7b81363adadd86d81873ad05a96eb61f" kind="variable"><name>m_member</name></member>
+    <member refid="classfoo1_1ac14d48dbba52b3951e76e0911a43fc81" kind="function"><name>do_some_work</name></member>
+  </compound>
+  <compound refid="classfoo2" kind="class"><name>foo2</name>
+    <member refid="classfoo2_1ab8ed83567abc540519810a273965d62b" kind="variable"><name>m_member</name></member>
+    <member refid="classfoo2_1a7ebf1f3468cf14187b04d05e81e97ee8" kind="function"><name>do_some_work</name></member>
+  </compound>
+  <compound refid="foo_8hpp" kind="file"><name>foo.hpp</name>
+  </compound>
+  <compound refid="foo1_8hpp" kind="file"><name>foo1.hpp</name>
+  </compound>
+  <compound refid="foo2_8hpp" kind="file"><name>foo2.hpp</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>/home/sukhman/myStuff/sphinx_basics_3/src</name>
+  </compound>
+</doxygenindex>

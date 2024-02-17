@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir">
+    <compoundname>/home/sukhman/myStuff/sphinx_basics_3/src</compoundname>
+    <innerfile refid="foo_8hpp">foo.hpp</innerfile>
+    <innerfile refid="foo1_8hpp">foo1.hpp</innerfile>
+    <innerfile refid="foo2_8hpp">foo2.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/sukhman/myStuff/sphinx_basics_3/src/"/>
+  </compounddef>
+</doxygen>

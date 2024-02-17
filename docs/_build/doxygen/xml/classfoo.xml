@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="classfoo" kind="class" language="C++" prot="public">
+    <compoundname>foo</compoundname>
+    <includes refid="foo_8hpp" local="no">foo.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classfoo_1ac45bfea0fdd0a7374612754d953e22ac" prot="private" static="no" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t foo::m_member</definition>
+        <argsstring></argsstring>
+        <name>m_member</name>
+        <qualifiedname>foo::m_member</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>a private member. which we can not ignore </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sukhman/myStuff/sphinx_basics_3/src/foo.hpp" line="18" column="17" bodyfile="/home/sukhman/myStuff/sphinx_basics_3/src/foo.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfoo_1abe684e752849129e1392b72f5031f96d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int foo::do_some_work</definition>
+        <argsstring>(int bar)</argsstring>
+        <name>do_some_work</name>
+        <qualifiedname>foo::do_some_work</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>bar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This does some work <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>bar</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>this parameter is mandatory. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The work results </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sukhman/myStuff/sphinx_basics_3/src/foo.hpp" line="12" column="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>foo is super important for this sphinx project </para>
+    </detaileddescription>
+    <location file="/home/sukhman/myStuff/sphinx_basics_3/src/foo.hpp" line="4" column="1" bodyfile="/home/sukhman/myStuff/sphinx_basics_3/src/foo.hpp" bodystart="5" bodyend="19"/>
+    <listofallmembers>
+      <member refid="classfoo_1abe684e752849129e1392b72f5031f96d" prot="public" virt="non-virtual"><scope>foo</scope><name>do_some_work</name></member>
+      <member refid="classfoo_1ac45bfea0fdd0a7374612754d953e22ac" prot="private" virt="non-virtual"><scope>foo</scope><name>m_member</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

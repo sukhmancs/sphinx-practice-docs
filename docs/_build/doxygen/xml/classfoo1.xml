@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="classfoo1" kind="class" language="C++" prot="public">
+    <compoundname>foo1</compoundname>
+    <includes refid="foo1_8hpp" local="no">foo1.hpp</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classfoo1_1a7b81363adadd86d81873ad05a96eb61f" prot="private" static="no" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t foo1::m_member</definition>
+        <argsstring></argsstring>
+        <name>m_member</name>
+        <qualifiedname>foo1::m_member</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>a private member. which we can not ignore </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sukhman/myStuff/sphinx_basics_3/src/foo1.hpp" line="18" column="17" bodyfile="/home/sukhman/myStuff/sphinx_basics_3/src/foo1.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfoo1_1ac14d48dbba52b3951e76e0911a43fc81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int foo1::do_some_work</definition>
+        <argsstring>(int bar)</argsstring>
+        <name>do_some_work</name>
+        <qualifiedname>foo1::do_some_work</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>bar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This does some work <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>bar</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>this parameter is mandatory. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The work results </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sukhman/myStuff/sphinx_basics_3/src/foo1.hpp" line="12" column="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classfoo1" kindref="compound">foo1</ref> is super important for this sphinx project </para>
+    </detaileddescription>
+    <location file="/home/sukhman/myStuff/sphinx_basics_3/src/foo1.hpp" line="4" column="1" bodyfile="/home/sukhman/myStuff/sphinx_basics_3/src/foo1.hpp" bodystart="5" bodyend="19"/>
+    <listofallmembers>
+      <member refid="classfoo1_1ac14d48dbba52b3951e76e0911a43fc81" prot="public" virt="non-virtual"><scope>foo1</scope><name>do_some_work</name></member>
+      <member refid="classfoo1_1a7b81363adadd86d81873ad05a96eb61f" prot="private" virt="non-virtual"><scope>foo1</scope><name>m_member</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
